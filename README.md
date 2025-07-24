@@ -1,5 +1,5 @@
 
-<h2 align="center">Datasets and Recipes for Video Temporal Grounding via
+<h2 align="center">Datasets and Recipes for Temporal Video Grounding via
 Reinforcement Learning</h2>
 
 <p align="center">
