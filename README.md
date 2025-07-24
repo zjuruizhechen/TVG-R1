@@ -4,8 +4,8 @@ Reinforcement Learning</h2>
 
 <p align="center">
   <a href="https://arxiv.org/abs/" target="_blank"><img src="https://img.shields.io/badge/arXiv-2507.2341-red"></a>
-  <a href="https://huggingface.co/collections/" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue"></a>
-  <a href="https://huggingface.co/datasets/" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-orange"></a>
+  <a href="https://huggingface.co/collections/RuizheChen/tvg-r1-68820771aef4c59bad76aebf" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue"></a>
+  <a href="https://huggingface.co/datasets/RuizheChen/TVG_processed_data" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-orange"></a>
 </p>
 
 
@@ -72,7 +72,7 @@ bash init_Easy_R1.sh
 ### GRPO Training
 ```shell
 cd EasyR1
-bash example/VTG_R1.sh
+bash example/TVG_R1.sh
 ```
 
 
