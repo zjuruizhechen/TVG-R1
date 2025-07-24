@@ -3,7 +3,7 @@ set -x
 export VLLM_ATTENTION_BACKEND=XFORMERS
 export VLLM_USE_V1=0
 
-MODEL_PATH=RuizheChen/Qwen2_5_7B_ColdStart_Temporal_GroundQA_Grounding
+MODEL_PATH=RuizheChen/TVG_Coldstart
 
 SYSTEM_PROMPT="""You FIRST think about the reasoning process in the mind and finally determine the precise time period related to the query. 
   The reasoning process MUST BE enclosed within <think> </think> tags. The specific time period MUST BE in the format [start time, end time] in seconds enclosed within <time> </time> tags. For example, <think>the reasoning process</think> <time>[5.2, 10.4]</time> """
