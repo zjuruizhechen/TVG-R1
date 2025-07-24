@@ -28,7 +28,7 @@ Our codes and repository are built on [EasyR1](https://github.com/hiyouga/EasyR1
 
 ### Our Raw Annotations
 
-We release full 56K Chain-of-Thought temporal video grounding annotation by Gemini-2.5-Pro, which can be accessed by [TVG_raw_annotation](https://huggingface.co/datasets/RuizheChen/TVG_raw_annotation)
+We release full 56K Chain-of-Thought temporal video grounding annotation by Gemini-2.5-Pro, which can be accessed by [TVG_raw_annotation](https://huggingface.co/datasets/RuizheChen/TVG_raw_annotation).
 
 | Task                                         | # Original Samples | Source Datasets                                                                                                  |
 |----------------------------------------------|-------------------|------------------------------------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ We release full 56K Chain-of-Thought temporal video grounding annotation by Gemi
 
 ### Dataset Files
 
-The processed Cold-Start and RL datasets can be accessed by [TVG_processed_annotation](https://huggingface.co/datasets/RuizheChen/TVG_processed_data)
+The processed Cold-Start and RL datasets can be accessed by [TVG_processed_annotation](https://huggingface.co/datasets/RuizheChen/TVG_processed_data).
 
 
 ### Raw Videos
