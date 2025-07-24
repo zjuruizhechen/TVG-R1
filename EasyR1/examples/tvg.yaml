@@ -1,0 +1,3 @@
+datasets:
+    - json_path: /opt/tiger/video-r1/data/VideoEspresso_train/VideoEspresso_train.json
+      data_folder: /opt/tiger/video-r1/data/VideoEspresso/all_video

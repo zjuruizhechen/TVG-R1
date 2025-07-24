@@ -1,0 +1,31 @@
+accelerate==1.2.1
+decord==0.6.0
+gradio==5.23.1
+nncore==0.4.5
+pandas==2.2.3
+peft==0.14.0
+pysrt==1.1.2
+scikit-image==0.25.0
+scikit-learn==1.6.1
+sentencepiece==0.2.0
+spaces==0.34.0
+termplotlib==0.3.9
+triton==3.0.0
+
+# https://github.com/gradio-app/gradio/issues/10662
+pydantic==2.10.6
+
+# our codebase contains necessary patches for 4.45.2
+# transformers==4.45.2
+
+# https://github.com/microsoft/DeepSpeed/issues/6793
+# deepspeed==0.15.4
+
+# https://github.com/pytorch/pytorch/issues/138386
+# torch==2.4.0
+# torchvision==0.19.0
+
+# torch-npu only supports torch 2.4.0
+# torch==2.4.0+cpu
+# torch-npu==2.4.0.post2
+# torchvision==0.19.0+cpu
