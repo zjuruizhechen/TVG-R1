@@ -114,6 +114,14 @@ python videomind/eval/eval_auto.py ./outputs/<your-output-name>
 Please kindly cite our paper if you find this project helpful.
 
 ```bibtex
-Coming Soon
+@misc{chen2025datasetsrecipesvideotemporal,
+      title={Datasets and Recipes for Video Temporal Grounding via Reinforcement Learning}, 
+      author={Ruizhe Chen and Zhiting Fan and Tianze Luo and Heqing Zou and Zhaopeng Feng and Guiyang Xie and Hansheng Zhang and Zhuochen Wang and Zuozhu Liu and Huaijian Zhang},
+      year={2025},
+      eprint={2507.18100},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.18100}, 
+}
 ```
 
