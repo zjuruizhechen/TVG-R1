@@ -74,7 +74,7 @@ bash init_Easy_R1.sh
 cd EasyR1
 bash example/TVG_R1.sh
 ```
-
+More training settings and details can be referred to [EasyR1](https://github.com/hiyouga/EasyR1).
 
 ## Evaluation
 
