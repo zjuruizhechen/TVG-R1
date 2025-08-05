@@ -130,11 +130,20 @@ if __name__ == '__main__':
             task = sample.get('task', 'unknown')
 
             if sample["source"] == "charades_sta":
-                sample['pred'] = sample['response']
+                # sample['pred'] = sample['response']
                 import re
 
                 # 使用正则提取所有浮点数或整数
-                numbers = re.findall(r'\d+\.?\d*', sample['pred'])
+                # numbers = re.findall(r'\d+\.?\d*', sample['pred'])
+                try:
+                    matches = re.search(r'<time>(.*?)</time>', sample['response']).group(1)
+                    # print("matches:", matches)
+                    numbers = re.findall(r'\d+\.?\d*', matches)
+                    sample['pred'] = [list(map(float, numbers[:2]))]
+                except:
+                    numbers = re.findall(r'\d+\.?\d*', sample['response'])
+                    sample['pred'] = [list(map(float, numbers[:2]))]
+
 
                 # 转换为 float 类型并取前两个
                 sample['pred'] = [list(map(float, numbers[:2]))]
