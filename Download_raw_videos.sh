@@ -27,8 +27,6 @@ cd ..
 
 cd ../..
 
-python process_GVLLM_0.py
-python process_GVLLM_1.py
 
 cd ./data
 
