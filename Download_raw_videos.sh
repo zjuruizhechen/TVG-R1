@@ -31,7 +31,6 @@ cd ../..
 cd ./data
 
 cd didemo
-find . -maxdepth 1 -name 'videos_crop_3fps_480_noaudio.tar.gz' -delete
 cat videos.tar.gz.* > videos.tar.gz
 tar -xzf videos.tar.gz
 find . -maxdepth 1 -name 'videos.tar.gz.0[0-1]' -delete
@@ -39,7 +38,6 @@ find . -maxdepth 1 -name 'videos.tar.gz' -delete
 cd ..
 
 cd queryd
-find . -maxdepth 1 -name 'videos_crop_3fps_480_noaudio.tar.gz' -delete
 cat videos.tar.gz.* > videos.tar.gz
 tar -xzf videos.tar.gz
 find . -maxdepth 1 -name 'videos.tar.gz.0[0-1]' -delete
@@ -47,21 +45,18 @@ find . -maxdepth 1 -name 'videos.tar.gz' -delete
 cd ..
 
 cd tacos
-find . -maxdepth 1 -name 'videos_crop_3fps_480_noaudio.tar.gz' -delete
 tar -xzf videos.tar.gz
 find . -maxdepth 1 -name 'videos.tar.gz' -delete
 cd ..
 
 cd internvid_vtime
-find . -maxdepth 1 -name 'videos_crop_3fps_480_noaudio.tar.gz.0[0-2]' -delete
 cat videos.tar.gz.* > videos.tar.gz
 tar -xzf videos.tar.gz
-find . -maxdepth 1 -name 'videos.tar.gz.0[0-9]' -delete
-find . -maxdepth 1 -name 'videos.tar.gz' -delete
+cat videos_crop_3fps_480_noaudio.tar.gz.* > videos_crop_3fps_480_noaudio.tar.gz
+tar -xzf videos_crop_3fps_480_noaudio.tar.gz
 cd ..
 
 cd hirest
-find . -maxdepth 1 -name 'videos_crop_3fps_480_noaudio.tar.gz.0[0-1]' -delete
 cat videos.tar.gz.* > videos.tar.gz
 tar -xzf videos.tar.gz
 find . -maxdepth 1 -name 'videos.tar.gz.0[0-4]' -delete
