@@ -9,10 +9,6 @@ Reinforcement Learning</h2>
 </p>
 
 
-<p align="center">
-  Ruizhe Chen, Zhiting Fan, Tianze Luo, Heqing Zou, Zhaopeng Feng, Guiyang Xie, Hansheng Zhang, Zhuochen Wang, Zuozhu Liu, Huaijian Zhang 
-  <p align="center">Bytedance, Zhejiang University</p>
-</p>
 
 
 > **TL;DR:** This repository presents datasets and recipes to enhance temporal grounding and reasoning capabilities in large vision-language models (LVLMs) for video temporal grounding tasks.
